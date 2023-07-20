@@ -9,6 +9,7 @@ library(Rgraphviz)
 library(psych)
 
 # load and prepare data
+graphs_path <- "graphs/"
 scripts_path <- "scripts/"
 
 data_path <- "data/alwood_data/"
@@ -23,17 +24,13 @@ source(paste(scripts_path, "Tuner histo.R", sep = ""))
 source(paste(scripts_path, "Turner GLDS.R", sep = ""))
 
 # Generate bayesian networks with MMPC algorithm
-# test <- none
-# glds_bn <- mmpc(glds, test=test)
-# graphviz.plot(glds_bn, main="GLDS")
-
 alwood_bn <- mmpc(alwood)
 ko_bn <- mmpc(ko)
 turner_bn <- mmpc(turner)
 glds_bn <- mmpc(glds)
 
 # plot and visualize bayesian networks
-graphviz.plot(alwood_bn, main = "Alwood")
-graphviz.plot(ko_bn, main = "Ko")
-graphviz.plot(turner_bn, main = "Turner")
-graphviz.plot(glds_bn, main = "GLDS")
+graph_alwood <- graphviz.plot(alwood_bn, main = "Alwood")
+graph_ko <- graphviz.plot(ko_bn, main = "Ko")
+graph_turner <- graphviz.plot(turner_bn, main = "Turner")
+graph_glds <- graphviz.plot(glds_bn, main = "GLDS")
