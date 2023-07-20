@@ -1,0 +1,23 @@
+Source Name,Sample Name,Spaceflight,Bone_volume_BVTV_percent,Label_length_LL_millimeter_per_millimeters_squared,Continuous_bone_formation_ContBF_percent,Ceased_bone_formation_CeasedBF_percent,Mineral_apposition_rate_MAR_micrometers_per_day,Osteoclast_perimeter_OsCperi_percent,Newly_Initiated_Bone_Formation_NewInitBF_percent,Adipocyte_area_AA_percent,Adipocyte_number_AN_number_per_micrometers_squared,Adipocyte_size_AS_micrometers_squared
+F1_101,FLT1_RAT1A_LV2,Space Flight,12.8,1.2,23.9,17.0,0.79,3.0,12.0,6.3,85.0,741.0
+F2_102,FLT2_RAT1B_LV2,Space Flight,13.8,1.6,24.1,11.6,1.73,1.0,16.5,8.4,119.9,701.0
+F3_103,FLT3_RAT2A_LV2,Space Flight,27.0,1.6,21.7,14.3,0.85,2.1,21.3,6.6,61.8,1068.0
+F4_104,FLT4_RAT2B_LV2,Space Flight,22.6,1.6,23.4,10.6,1.29,1.5,9.9,5.3,68.1,778.0
+F5_105,FLT5_RAT3A_LV2,Space Flight,20.0,1.3,25.3,10.1,0.94,1.6,12.3,6.0,67.9,884.0
+F6_106,FLT6_RAT3B_LV2,Space Flight,15.7,1.4,26.7,18.5,0.88,4.8,8.1,12.0,160.4,748.0
+F8_108,FLT8_RAT4B_LV2,Space Flight,26.2,1.7,34.5,21.0,1.03,1.6,12.4,9.7,101.7,954.0
+F9_109,FLT9_RAT5A_LV2,Space Flight,23.9,1.8,21.5,17.4,0.80,1.8,8.3,4.1,50.3,815.0
+F10_110,FLT10_RAT5B_LV2,Space Flight,20.9,1.6,36.1,17.4,0.67,2.9,11.9,6.0,70.0,857.0
+F11_111,FLT11_RAT6A_LV2,Space Flight,19.7,1.3,20.5,11.4,0.59,2.6,9.0,4.4,47.9,919.0
+F12_112,FLT12_RAT6B_LV2,Space Flight,33.7,2.0,36.0,15.7,1.08,2.6,14.8,2.8,44.1,635.0
+GC2_114,GC2_RAT13B_LV2,ground control,34.1,1.6,20.9,11.4,0.87,0.6,7.7,2.1,34.0,618.0
+GC3_116,GC3_RAT14A_LV2,ground control,32.6,1.9,28.7,19.0,0.51,0.4,7.2,1.3,24.0,707.0
+GC4_118,GC4_RAT14B_LV2,ground control,33.7,2.2,28.2,19.0,0.86,0.6,9.5,1.4,22.9,611.0
+GC5_119,GC5_RAT15A_LV2,ground control,34.5,2.3,21.2,16.5,0.94,0.6,5.6,2.7,41.0,659.0
+GC6_121,GC6_RAT15B_LV2,ground control,21.6,1.8,27.4,13.8,0.69,0.5,6.9,1.5,19.4,773.0
+GC7_123,GC7_RAT16A_LV2,ground control,41.5,2.3,22.0,34.1,0.61,0.5,8.2,1.2,18.3,656.0
+GC8_124,GC8_RAT16B_LV2,ground control,24.3,1.6,31.4,19.8,0.65,1.6,17.1,1.8,24.7,729.0
+GC9_125,GC9_RAT17A_LV2,ground control,30.2,1.7,28.6,11.2,0.97,1.2,12.1,0.9,16.4,549.0
+GC10_126,GC10_RAT17B_LV2,ground control,29.7,1.6,28.3,20.7,0.55,0.2,9.0,1.4,17.5,800.0
+GC11_128,GC11_RAT18A_LV2,ground control,22.5,1.7,28.6,11.2,0.97,1.1,16.6,1.0,18.4,543.0
+GC12_136,GC12_RAT18B_LV2,ground control,41.9,2.0,33.3,27.2,0.36,0.7,8.4,2.0,34.4,581.0
