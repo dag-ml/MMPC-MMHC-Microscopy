@@ -1,0 +1,105 @@
+Alwood / Dubee 
+
+	Expose
+
+		boolean, whether or not mice were exposed 37 days of microG flight, after being flown to the ISS, and housed in the Rodent Habitat.
+
+	Trab
+
+		composed of "trabecular_number_1_by_mm" & "trabecular_separation_mm". Higher trabecular number indicates a higher density of trabecular bone. Lower trabecular separation indicates a more compact and denser trabecular bone structure.
+
+	Mass 
+
+		composed of "trabecular_thickness_mm " & "percent_bone_volume_bvtv_percent". Higher trabecular thickness generally indicates denser and stronger trabecular bone. A larger proportion of bone volume relative to the total tissue volume indicates better bone density and overall bone health.
+
+GDLS / Kuene 2015
+
+	expose
+		
+		boolean, specifies whether subject spent 14 days on earth or in space
+
+	Mass
+
+		made up of "DXA_BMC_mg","DXA_BMD_mg_per_mmsq". Measures the change in mass over the 14 day period. non invasive procedure so was able to be measured before/after
+
+	Meta
+
+		The metaphysis is the transitional region between the shaft (diaphysis) and the rounded end (epiphysis) of a long bone
+
+		mass_meta 
+
+			represents the percentage of cancellous bone volume in the metaphysis of a bone relative to the total tissue volume in that region. 
+
+		trab_meta
+
+			micrometer measurements of the microstructure and density of cancellous bone tissue in the metaphysis region of a bone
+
+	Epiphysis
+
+		The epiphysis is the rounded end of a long bone, forming a joint with another bone
+
+		mass_epiph
+
+			represents the percentage of cancellous bone volume in the epiphysis of a bone relative to the total tissue volume in that region. 
+
+		trab_epiph
+
+			micrometer measurements of the microstructure and density of cancellous bone tissue in the epiphysis region of a bone
+
+
+ Keune 2016 / Turner
+
+ 	expose
+
+ 		boolean, whether or not mice flew on the Space Shuttle Columbia (STS-62) for 14 days.
+
+ 	resorp
+
+ 		composed of  "Label_length_LL_millimeter_per_millimeters_squared" & "Osteoclast_perimeter_OsCperi_percent".  "Label_length_LL_millimeter_per_millimeters_squared" represents the average length of fluorescent markers (fluorochrome labels) per unit area of bone tissue, showing the rate and extent of bone formation and growth. "Osteoclast_perimeter_OsCperi_percent" measures the proportion of the perimeter of osteoclasts (cells responsible for bone resorption) relative to the total bone perimeter in bone tissue, expressed as a percentage.
+
+ 	form 
+
+ 		composed of "Ceased_bone_formation_CeasedBF_percent" & "Mineral_apposition_rate_MAR_micrometers_per_day". "Ceased_bone_formation_CeasedBF_percent" represents the percentage of bone surface where bone formation has stopped or ceased, indicating areas where new bone is no longer being actively produced. "Mineral_apposition_rate_MAR_micrometers_per_day" measures how fast new mineralized bone is added to existing bone tissue each day.
+
+ 	mass
+
+ 		renamed "Bone_volume_BVTV_percent". it measures the percentage of bone volume relative to the total tissue volume in a given area of bone"
+
+
+Ko
+
+	unload
+
+		renamed "PWB". partial weight bearing originally represented 20%, 40%, 70%, or 100% body weight the rats experienced. "unload" flipped this around so the rats experienced 80%, 60%, 30%, or 0% skeletal unloading
+
+	dur
+
+		duration of skeletal unloading. 1, 2, or 4 weeks (in days).
+
+	expose
+
+		z-score transformation of the product of (unload)*(dur). represents a standardized measure of the combined effect of the extent of skeletal unloading (unload) and its duration (dur) experienced by rats
+
+	mass
+
+		composed of "Bone_volume_BV_per_total_volume_TV_mm4_per_mm4" & "Bone_mineral_density_BMD_mg_per_cubed_centimeter". "Bone_volume_BV_per_total_volume_TV_mm4_per_mm4" represents the ratio of bone volume (BV) to the total tissue volume (TV) in a specific area of bone tissue. "Bone_mineral_density_BMD_mg_per_cubed_centimeter" measures the concentration of minerals (mainly calcium and phosphorus) in the bone tissue
+
+	trab
+
+		composed of "Trabecular_separation_TbSp_millimeter" & "Trabecular_number_TbN_one_per_millimeter". "Trabecular_separation_TbSp_millimeter" represents the average distance between individual trabeculae (thin bony plates) within trabecular bone tissue. "Trabecular_number_TbN_one_per_millimeter" measures the count of trabeculae (thin bony plates) per unit length of one millimeter in trabecular bone tissue
+
+	stren
+
+		composed of "maximum_load_N_newtons" & "failure_load_newtons". I'm not sure what the difference between these two are but ultimately measures the strength of the bone
+
+	resorp
+
+		relabeled "Osteoclast_surface_OcS_per_bone_surface_BS_percent". It measures the percentage of the bone surface covered by osteoclasts, which are specialized cells that break down and remove old bone tissue as part of the natural process of bone remodeling.
+
+	form
+
+		composed of "Mineralized_surface_MS_per_bone_surface_BS_percen" & "Bone_formation_rate_BFR_per_bone_surface_BS_percent". "Mineralized_surface_MS_per_bone_surface_BS_percent" measures the percentage of the bone surface covered by mineralized bone. "Bone_formation_rate_BFR_per_bone_surface_BS_percent" represents the percentage of bone surface where new bone formation is occurring
+
+
+
+
