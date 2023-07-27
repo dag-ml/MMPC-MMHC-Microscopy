@@ -50,15 +50,8 @@ ko$unload <- 0*(ko$PWB=='PWB100')+30*(ko$PWB=="PWB70")+60*(ko$PWB=="PWB40")+80*(
 ko$dur <- 7*(ko$duration=='1wk')+14*(ko$duration=='2wk')+28*(ko$duration=='4wk')
 ko <- ko[,c('BVTV','BMD','trab.sep','trab.num','MSBS','OCSBS','BFRBS','load.max','load.fail','unload','dur')]
 
-# explicitly cast to numeric to avoid errors
-ko[,c("BVTV")] <- as.numeric(ko[,c("BVTV")])
-ko[,c("BMD")] <- as.numeric(ko[,c("BMD")])
-ko[,c("trab.sep")] <- as.numeric(ko[,c("trab.sep")])
-ko[,c("trab.num")] <- as.numeric(ko[,c("trab.num")])
-ko[,c("MSBS")] <- as.numeric(ko[,c("MSBS")])
-ko[,c("BFRBS")] <- as.numeric(ko[,c("BFRBS")])
-ko[,c("load.max")] <- as.numeric(ko[,c("load.max")])
-ko[,c("load.fail")] <- as.numeric(ko[,c("load.fail")])
+# explicitly cast to numeric to convert character literal numbers to numeric
+ko <- as.data.frame(sapply(ko, as.numeric))
 
 mass <- pca(r=ko[,c("BVTV","BMD")], nfactors = 1, scores = T)
 trab <- pca(r=ko[,c("trab.sep","trab.num")], nfactors = 1, scores = T)
