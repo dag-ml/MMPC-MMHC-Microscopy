@@ -49,7 +49,7 @@ ko_4wk_bn <- mmpc(ko_4wk)  # FLOATING POINT ERROR: fixed correlation coeff > 1
 glds_meta_bn <- mmpc(glds_meta)
 glds_epi_bn <- mmpc(glds_epi)
 
-# Generate bayesian network skeleton with MMPC algorithm
+# Generate bayesian network with MMHC algorithm
 alwood_dag <- mmhc(alwood)
 ko_dag <- mmhc(subset(ko, select = -c(resorp, form)))  # remove NA variables
 turner_dag <- mmhc(turner)
