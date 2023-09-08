@@ -1,4 +1,4 @@
-setwd("/Users/camwolff/Development/local/R/dag_validation")
+setwd("/home/cam/Development/Git/mmpc")
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -6,3 +6,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("Rgraphviz")
 install.packages("bnlearn")
 install.packages("psych")
+install.packages("tidyr")
+install.packages("mltools")
+install.packages("data.table")
+install.packages("dplyr")
