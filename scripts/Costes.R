@@ -14,4 +14,6 @@ costes <- one_hot(as.data.table(costes), cols = "chromosome", sparsifyNAs = TRUE
 
 costes <- costes %>% mutate_all(as.numeric)  # transform all data to numeric
 
+costes <- costes[!duplicated(costes)]  # remove duplicate rows
+
 #TODO elimiate repeated positions within the same chromosome 

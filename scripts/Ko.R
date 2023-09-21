@@ -1,4 +1,4 @@
-setwd("/Users/camwolff/Development/local/R/dag_validation")
+setwd("/home/cam/Development/Git/mmpc")
 
 ## Ko
 nastring <- c("           *","epiphysis broken")  # things we want R to read as NA

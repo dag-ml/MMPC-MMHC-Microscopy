@@ -23,3 +23,4 @@ graphviz.plot(costes_bn, main = "Costes BN") # plot and visualize Bayesian netwo
 
 costes_dag <-mmhc(costes, debug = T)  # Generate directed acyclic graph with MMHC algorithm
 graphviz.plot(costes_dag, main = "Costes BN") # plot and visualize Dags
+
